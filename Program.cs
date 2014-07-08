@@ -23,6 +23,9 @@ namespace FileWriter
             sw.WriteLine(message);
             sw.Flush();
             sw.Close();
+
+            Console.WriteLine("File Created Successfully");
+
             return;
 
         }
